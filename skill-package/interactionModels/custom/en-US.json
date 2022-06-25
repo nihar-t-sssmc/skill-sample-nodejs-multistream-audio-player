@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "multi stream audio player",
+      "invocationName": "ramayan english",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -19,6 +19,9 @@
           "name": "PlayAudio",
           "slots": [],
           "samples": [
+            "play ramayan",
+            "start ramayan",
+            "begin ramayan",
             "begin audio",
             "begin the audio",
             "begin playing the audio",

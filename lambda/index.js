@@ -21,7 +21,7 @@ const LaunchRequestHandler = {
         let reprompt;
 
         if (!playbackInfo.hasPreviousPlaybackSession) {
-            message = 'Welcome to the multi-stream player. you can ask to play the audio to begin the stream.';
+            message = 'Sai Ram, welcome to Ramayan English Audio Book. you can ask to play the audio to begin the Audio Book.';
             reprompt = 'You can say, play the audio, to begin.';
         } else {
             playbackInfo.inPlaybackSession = false;
@@ -305,11 +305,11 @@ const HelpHandler = {
         let message;
 
         if (!playbackInfo.hasPreviousPlaybackSession) {
-            message = 'Welcome to the multi-stream player. you can ask to play the audio to begin the stream.';
+            message = 'Sai Ram, welcome to Ramayan English Audio Book. you can ask to play the audio to begin the Audio Book.';
         } else if (!playbackInfo.inPlaybackSession) {
-            message = `You were listening to ${constants.audioData[playbackInfo.index].title}. Would you like to resume?`;
+            message = `Sai Ram. You were listening to ${constants.audioData[playbackInfo.index].title}. Would you like to resume?`;
         } else {
-            message = 'Welcome to the multi-stream player. You can say, Next or Previous to navigate through the playlist. At any time, you can say Pause to pause the audio and Resume to resume.';
+            message = 'Sai Ram. You can say, Next or Previous to navigate through the playlist. At any time, you can say Pause to pause the audio and Resume to resume.';
         }
 
         return handlerInput.responseBuilder
