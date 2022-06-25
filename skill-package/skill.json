@@ -19,9 +19,9 @@
       "isAvailableWorldwide": true,
       "locales": {
         "en-US": {
-          "description": "Sample skill using the AudioPlayer interface",
+          "description": "Ramayan English Audio Book",
           "examplePhrases": [
-            "Alexa open audio player sample"
+            "Alexa open ramayan english"
           ],
           "keywords": [],
           "name": "Audioplayer sample",
